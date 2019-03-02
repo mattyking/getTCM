@@ -92,50 +92,70 @@ def scrapeBooking(url):
 
 
 # Reading in list of jane urls
-clinics = pd.read_csv('jane_url.csv')
-
-# Initializing data frames
-errors = []
-openings_df = pd.DataFrame()
-shifts_df = pd.DataFrame()
-
-# Looping through all urls
-for url in clinics.Url:
-    
-    try:
-        openings, shifts = scrapeBooking(url)
-        
-        if openings.shape[1] > 0:
-            openings_df = openings_df.append(openings, ignore_index=True)
-        
-        if shifts.shape[1] > 0:
-            shifts_df = shifts_df.append(shifts, ignore_index=True)
-            
-    except:
-        errors.append(url)
-
-
-# Saving csvs
-now = datetime.datetime.now()
-saveDate = now.strftime("%Y%m%d")
-openings_df.to_csv('openings' + saveDate + '.csv', index = None)
-shifts_df.to_csv('shifts' + saveDate + '.csv', index = None)
-    
-# Upload file to S3 bucket
-s3 = boto3.resource('s3')
-
 try:
-    s3.Bucket('tcmbooking').upload_file('openings' + saveDate + '.csv')
-    os.remove('openings' + saveDate + '.csv')
+    clinics = pd.read_csv('jane_url.csv')
+    clinics = clinics.head()
+    print('list of urls successfully read in')
+
+    # Initializing data frames
+    errors = []
+    openings_df = pd.DataFrame()
+    shifts_df = pd.DataFrame()
+    
+    # Looping through all urls
+    for url in clinics.Url:
+        
+        try:
+            openings, shifts = scrapeBooking(url)
+            
+            if openings.shape[1] > 0:
+                openings_df = openings_df.append(openings, ignore_index=True)
+            
+            if shifts.shape[1] > 0:
+                shifts_df = shifts_df.append(shifts, ignore_index=True)
+                
+        except:
+            print("Error on url " + url)
+            errors.append(url)
+    
+    
+    # Saving csvs
+    try:
+        now = datetime.datetime.now()
+        saveDate = now.strftime("%Y%m%d")
+        openings_df.to_csv('openings' + saveDate + '.csv', index = None)
+        shifts_df.to_csv('shifts' + saveDate + '.csv', index = None)
+        
+        with open('C:/_Files/Octoparse/Scraper/error' + saveDate + '.txt', 'w') as f:
+            for item in errors:
+                f.write("%s\n" % item)
+        
+        # Upload file to S3 bucket
+        s3 = boto3.resource('s3')
+        
+        try:
+            s3.Bucket('tcmbooking').upload_file('openings' + saveDate + '.csv')
+            os.remove('openings' + saveDate + '.csv')
+        except:
+            print('Error uploading openings csv to s3 bucket')
+        
+        try:    
+            s3.Bucket('tcmbooking').upload_file('shifts' + saveDate + '.csv')
+            os.remove('shifts' + saveDate + '.csv')
+        except:
+            print('Error uploading shifts csv to s3 bucket')
+            
+        try:    
+            s3.Bucket('tcmbooking').upload_file('error' + saveDate + '.txt')
+            os.remove('error' + saveDate + '.txt')
+        except:
+            print('Error uploading error log to s3 bucket')
+        
+    except:
+        print('Error writing data frames to file')
+        
+
 except:
-    print('Error uploading or deleting openings csv')
-
-try:    
-    s3.Bucket('tcmbooking').upload_file('shifts' + saveDate + '.csv')
-    os.remove('shifts' + saveDate + '.csv')
-except:
-    print('Error uploading or deleting shifts csv')
-
-
+    print('could not read in urls')
 
 
