@@ -5,6 +5,9 @@ import boto3
 import datetime
 import pandas as pd
 import os
+import warnings
+
+warnings.filterwarnings("ignore")
 
 # Function to scrape Jane websites
 def scrapeBooking(url):
@@ -31,7 +34,7 @@ def scrapeBooking(url):
         openings_all = pd.DataFrame()
         shifts_all = pd.DataFrame()
         
-        for clinic_local in range(1, 5):
+        for clinic_local in range(1, 3):
             apiurl = host + "api/v2/openings?location_id=" + str(clinic_local) + "&staff_member_id=" + staff_member + "&treatment_id=" + treatment + "&date=" + startDate + "&num_days=7"
             
             try:
@@ -133,22 +136,25 @@ try:
         s3 = boto3.resource('s3')
         
         try:
-            s3.Bucket('tcmbooking').upload_file('openings' + saveDate + '.csv')
+            f_name = 'openings' + saveDate + '.csv'
+            s3.Bucket('tcmbooking').upload_file(f_name, f_name)
             os.remove('openings' + saveDate + '.csv')
         except:
-            print('Error uploading openings csv to s3 bucket')
+            print('Could not save openings to s3 bucket')
         
-        try:    
-            s3.Bucket('tcmbooking').upload_file('shifts' + saveDate + '.csv')
+        try:
+            f_name = 'shifts' + saveDate + '.csv'    
+            s3.Bucket('tcmbooking').upload_file(f_name, f_name)
             os.remove('shifts' + saveDate + '.csv')
         except:
-            print('Error uploading shifts csv to s3 bucket')
-            
-        try:    
-            s3.Bucket('tcmbooking').upload_file('error' + saveDate + '.txt')
+            print('Could not save shifts to s3 bucket')
+                
+        try:
+            f_name = 'error' + saveDate + '.txt'
+            s3.Bucket('tcmbooking').upload_file(f_name, f_name)
             os.remove('error' + saveDate + '.txt')
         except:
-            print('Error uploading error log to s3 bucket')
+            print('Could not save errors to s3 bucket')
         
     except:
         print('Error writing data frames to file')
