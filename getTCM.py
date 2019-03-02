@@ -96,8 +96,6 @@ def scrapeBooking(url):
 # Reading in list of jane urls
 try:
     clinics = pd.read_csv('jane_url.csv')
-    clinics = clinics.head()
-    print('list of urls successfully read in')
 
     # Initializing data frames
     errors = []
