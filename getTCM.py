@@ -126,7 +126,7 @@ try:
         openings_df.to_csv('openings' + saveDate + '.csv', index = None)
         shifts_df.to_csv('shifts' + saveDate + '.csv', index = None)
         
-        with open('C:/_Files/Octoparse/Scraper/error' + saveDate + '.txt', 'w') as f:
+        with open('error' + saveDate + '.txt', 'w') as f:
             for item in errors:
                 f.write("%s\n" % item)
         
