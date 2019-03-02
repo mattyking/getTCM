@@ -1,5 +1,4 @@
 #run python janeapp-scrap 
-# Note: Need to account for different locations
 
 import requests
 import boto3
