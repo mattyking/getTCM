@@ -92,7 +92,7 @@ def scrapeBooking(url):
 
 
 # Reading in list of jane urls
-clinics = pd.read_csv(r'C:\_Files\Octoparse\jane_url.csv')
+clinics = pd.read_csv('jane_url.csv')
 
 # Initializing data frames
 errors = []
@@ -116,11 +116,10 @@ for url in clinics.Url:
 
 
 # Saving csvs
-f_dir = 'C:/_Files/Octoparse/out/'
 now = datetime.datetime.now()
 saveDate = now.strftime("%Y%m%d")
-openings_df.to_csv(f_dir + 'openings' + saveDate + '.csv', index = None)
-shifts_df.to_csv(f_dir + 'shifts' + saveDate + '.csv', index = None)
+openings_df.to_csv('openings' + saveDate + '.csv', index = None)
+shifts_df.to_csv('shifts' + saveDate + '.csv', index = None)
     
 # Upload file to S3 bucket
 s3 = boto3.resource('s3')
