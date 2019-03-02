@@ -14,19 +14,22 @@ saveDate = now.strftime("%Y%m%d")
 s3 = boto3.resource('s3')
 
 try:
-    s3.Bucket('tcmbooking').upload_file('openings' + saveDate + '.csv')
+    f_name = 'openings' + saveDate + '.csv'
+    s3.Bucket('tcmbooking').upload_file(f_name, f_name)
     os.remove('openings' + saveDate + '.csv')
 except Exception:
     traceback.print_exc()
 
-try:    
-    s3.Bucket('tcmbooking').upload_file('shifts' + saveDate + '.csv')
+try:
+    f_name = 'shifts' + saveDate + '.csv'    
+    s3.Bucket('tcmbooking').upload_file(f_name, f_name)
     os.remove('shifts' + saveDate + '.csv')
 except Exception:
     traceback.print_exc()
         
-try:    
-    s3.Bucket('tcmbooking').upload_file('error' + saveDate + '.txt')
+try:
+    f_name = 'error' + saveDate + '.txt'
+    s3.Bucket('tcmbooking').upload_file(f_name, f_name)
     os.remove('error' + saveDate + '.txt')
 except Exception:
     traceback.print_exc()
