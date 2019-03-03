@@ -27,9 +27,9 @@ def scrapeBooking(url):
         r1 = requests.get(base, verify=False)
         c = r1.cookies
         
-        now = datetime.datetime.now()
-        startDate = now.strftime("%Y-%m-%d")
-        #startDate = ("2019-03-04")
+        #now = datetime.datetime.now()
+        #startDate = now.strftime("%Y-%m-%d")
+        startDate = ("2019-03-03")
         
         openings_all = pd.DataFrame()
         shifts_all = pd.DataFrame()
