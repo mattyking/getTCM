@@ -27,9 +27,9 @@ def scrapeBooking(url):
         r1 = requests.get(base, verify=False)
         c = r1.cookies
         
-        #now = datetime.datetime.now()
-        #startDate = now.strftime("%Y-%m-%d")
-        startDate = ("2019-03-03")
+        now = datetime.datetime.now()
+        startDate = now.strftime("%Y-%m-%d")
+        #startDate = ("2019-03-03")
         
         openings_all = pd.DataFrame()
         shifts_all = pd.DataFrame()
@@ -86,7 +86,7 @@ def scrapeBooking(url):
                     shifts_df = shifts_df.drop(['call_to_book', 'end_at', 'start_at', 'HrsAhead'], axis=1)
                     shifts_all = shifts_all.append(shifts_df, ignore_index=True)
             except:
-                print("No location " + str(clinic_local))
+                pass
                     
         return openings_all, shifts_all
     
@@ -103,7 +103,7 @@ try:
     shifts_df = pd.DataFrame()
     
     # Looping through all urls
-    for url in clinics.Url:
+    for x, url in enumerate(clinics.Url):
         
         try:
             openings, shifts = scrapeBooking(url)
@@ -113,6 +113,8 @@ try:
             
             if shifts.shape[1] > 0:
                 shifts_df = shifts_df.append(shifts, ignore_index=True)
+            
+            print("Completed " + str(x) + " of " + str(len(clinics.Url)) + " urls")
                 
         except:
             print("Error on url " + url)
