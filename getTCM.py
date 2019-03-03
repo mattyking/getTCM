@@ -9,6 +9,7 @@ import os
 import warnings
 
 warnings.filterwarnings("ignore")
+h_dir = '/home/ubuntu/getTCM/'
 
 # Function to scrape Jane websites
 def scrapeBooking(url):
@@ -96,21 +97,12 @@ def scrapeBooking(url):
 
 # Reading in list of jane urls
 try:
-    clinics = pd.read_csv('jane_url.csv')
+    clinics = pd.read_csv(h_dir + 'jane_url.csv')
 
     # Initializing data frames
     errors = []
     openings_df = pd.DataFrame()
     shifts_df = pd.DataFrame()
-    
-    # Writing indication that script has run
-    print('getTCM.py opened!')
-    now = datetime.datetime.now()
-    saveDate = now.strftime("%Y-%m-%d %H:%M")
-    with open('testTCMout.txt', 'w') as f:
-        f.write('Test run at :' + saveDate)
-        
-    quit()
     
     # Looping through all urls
     for x, url in enumerate(clinics.Url):
@@ -135,10 +127,10 @@ try:
     try:
         now = datetime.datetime.now()
         saveDate = now.strftime("%Y%m%d")
-        openings_df.to_csv('openings' + saveDate + '.csv', index = None)
-        shifts_df.to_csv('shifts' + saveDate + '.csv', index = None)
+        openings_df.to_csv(h_dir + 'openings' + saveDate + '.csv', index = None)
+        shifts_df.to_csv(h_dir + 'shifts' + saveDate + '.csv', index = None)
         
-        with open('error' + saveDate + '.txt', 'w') as f:
+        with open(h_dir + 'error' + saveDate + '.txt', 'w') as f:
             for item in errors:
                 f.write("%s\n" % item)
         
@@ -146,23 +138,26 @@ try:
         s3 = boto3.resource('s3')
         
         try:
-            f_name = 'openings' + saveDate + '.csv'
-            s3.Bucket('tcmbooking').upload_file(f_name, f_name)
-            os.remove('openings' + saveDate + '.csv')
+            s3_name = 'openings' + saveDate + '.csv'
+            f_name = h_dir + s3_name
+            s3.Bucket('tcmbooking').upload_file(f_name, s3_name)
+            #os.remove('openings' + saveDate + '.csv')
         except:
             print('Could not save openings to s3 bucket')
         
         try:
-            f_name = 'shifts' + saveDate + '.csv'    
-            s3.Bucket('tcmbooking').upload_file(f_name, f_name)
-            os.remove('shifts' + saveDate + '.csv')
+            s3_name = 'shifts' + saveDate + '.csv'    
+            f_name = h_dir + s3_name    
+            s3.Bucket('tcmbooking').upload_file(f_name, s3_name)
+            #os.remove('shifts' + saveDate + '.csv')
         except:
             print('Could not save shifts to s3 bucket')
                 
         try:
-            f_name = 'error' + saveDate + '.txt'
-            s3.Bucket('tcmbooking').upload_file(f_name, f_name)
-            os.remove('error' + saveDate + '.txt')
+            s3_name = 'error' + saveDate + '.txt'
+            f_name = h_dir + s3_name
+            s3.Bucket('tcmbooking').upload_file(f_name, s3_name)
+            #os.remove('error' + saveDate + '.txt')
         except:
             print('Could not save errors to s3 bucket')
         
