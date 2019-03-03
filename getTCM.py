@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 #run python janeapp-scrap 
 
 import requests
@@ -101,6 +102,15 @@ try:
     errors = []
     openings_df = pd.DataFrame()
     shifts_df = pd.DataFrame()
+    
+    # Writing indication that script has run
+    print('getTCM.py opened!')
+    now = datetime.datetime.now()
+    saveDate = now.strftime("%Y-%m-%d %H:%M")
+    with open('testTCMout.txt', 'w') as f:
+        f.write('Test run at :' + saveDate)
+        
+    quit()
     
     # Looping through all urls
     for x, url in enumerate(clinics.Url):
