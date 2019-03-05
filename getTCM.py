@@ -141,7 +141,7 @@ try:
             s3_name = 'openings' + saveDate + '.csv'
             f_name = h_dir + s3_name
             s3.Bucket('tcmbooking').upload_file(f_name, s3_name)
-            os.remove('openings' + saveDate + '.csv')
+            os.remove(h_dir + 'openings' + saveDate + '.csv')
         except:
             print('Could not save openings to s3 bucket')
         
@@ -149,7 +149,7 @@ try:
             s3_name = 'shifts' + saveDate + '.csv'    
             f_name = h_dir + s3_name    
             s3.Bucket('tcmbooking').upload_file(f_name, s3_name)
-            os.remove('shifts' + saveDate + '.csv')
+            os.remove(h_dir + 'shifts' + saveDate + '.csv')
         except:
             print('Could not save shifts to s3 bucket')
                 
@@ -157,7 +157,7 @@ try:
             s3_name = 'error' + saveDate + '.txt'
             f_name = h_dir + s3_name
             s3.Bucket('tcmbooking').upload_file(f_name, s3_name)
-            os.remove('error' + saveDate + '.txt')
+            os.remove(h_dir + 'error' + saveDate + '.txt')
         except:
             print('Could not save errors to s3 bucket')
         
