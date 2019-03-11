@@ -2,7 +2,7 @@ Clinic,Name,Url,Location,Cost,Time,Area
 Adrien Ip,Adrien Ip,https://adrienip.janeapp.com/locations/adrien-ip-tcm-acupuncture-vancouver/book#/staff_member/1/treatment/2,1,90,30,Midtown
 Adrien Ip,Adrien Ip,https://adrienip.janeapp.com/locations/adrien-ip-tcm-acupuncture-richmond/book#/staff_member/1/treatment/2,2,90,30,Richmond
 Oliver Barre,Alaunius Integrated Medicine,https://aimedicines.janeapp.com/#/staff_member/1/treatment/2,1,115,60,Downtown
-Acubalance,Allison Locke,https://acubalance.janeapp.com/#/staff_member/30/treatment/423,1,95,60,Midtown
+Acubalance,Allison Locke,https://acubalance.janeapp.com/#/staff_member/30/treatment/423,1,95,30,Midtown
 Elements Wellness,Alyssa Huang,https://elementswellness.janeapp.com/#/staff_member/4/treatment/5,1,95,60,Midtown
 Andre Shih TCM,Andre Shih,https://andreshihtcm.janeapp.com/locations/burnaby-clinic/book#/staff_member/1/treatment/8,2,100,60,Metrotown
 Andre Shih TCM,Andre Shih,https://andreshihtcm.janeapp.com/locations/vancouver-clinic/book#/staff_member/1/treatment/2,1,100,60,Downtown
@@ -13,7 +13,7 @@ Healing River,Bobbi Hayashi,https://healingriveracupuncture.janeapp.com/#/staff_
 Momentum Wellness,Bonnie Jang,https://momentumwellnesscentre.janeapp.com/locations/momentum-steveston-village/book#/staff_member/4/treatment/14,1,105,60,Richmond
 Momentum Wellness,Bonnie Jang,https://momentumwellnesscentre.janeapp.com/locations/momentum-kerrisdale-village/book#/staff_member/4/treatment/14,3,105,60,Richmond
 North Shore Wellness,Brad Matthews,https://northshorewellnesscentre.janeapp.com/locations/north-shore-wellness-centre/book#/staff_member/151/treatment/392,1,90,30,North Vancouver
-Acubalance,Bronwyn Melville,https://acubalance.janeapp.com/#/staff_member/7/treatment/423,1,95,60,Midtown
+Acubalance,Bronwyn Melville,https://acubalance.janeapp.com/#/staff_member/7/treatment/423,1,95,30,Midtown
 Green Leaf,Byoung Jin Na,https://greenleafacuclinic.janeapp.com/#/staff_member/1/treatment/9,1,110,30,Downtown
 Royal Treatments,Byungsoo Kim,https://royaltreatmenttherapeutics.janeapp.com/#/staff_member/53/treatment/189,1,110,60,Metrotown
 Qi Integrated Health,Calvin Crichton,https://qiintegratedhealth.janeapp.com/#/staff_member/147/treatment/990,1,112,75,Midtown
@@ -25,7 +25,7 @@ Green Leaf,Clara Donghee Kim,https://greenleafacuclinic.janeapp.com/#/staff_memb
 Advanced Healing Arts,Colin Harris,https://advancedhealingarts.janeapp.com/locations/advanced-healing-arts/book#/staff_member/25/treatment/80,1,110,75,Coquitlam
 Uniqcon Health,Duyong Lee,https://uniqconhealth.janeapp.com/#/staff_member/2/treatment/2,1,70,40,Coquitlam
 The Acupuncture Hub,Elise Greaves,https://theacuhub.janeapp.com/#/staff_member/8/treatment/2,1,50,10,Midtown
-Acubalance,Emilie Salomons,https://acubalance.janeapp.com/#/staff_member/5/treatment/423,1,95,60,Midtown
+Acubalance,Emilie Salomons,https://acubalance.janeapp.com/#/staff_member/5/treatment/423,1,95,30,Midtown
 Boda Health,Emily Lewis,https://bodahealth.janeapp.com/#/staff_member/7/treatment/24,1,95,60,Midtown
 Balance Acupuncture,EunYoung Lee,https://balanceam.janeapp.com/#/staff_member/19/treatment/7,1,100,75,Midtown
 MedSpa,Galya Galina Ayvazov,https://medspa.janeapp.com/#/staff_member/6/treatment/23,1,70,45,Metrotown
@@ -50,7 +50,7 @@ Yong Sheng Clinic,Jing Zhang,https://bbm.janeapp.com/#/staff_member/2/treatment/
 Qi Integrated Health,Julie Nelson,https://qiintegratedhealth.janeapp.com/#/staff_member/124/treatment/986,1,112,60,Midtown
 Balance Acupuncture,Justin Cameron,https://balanceam.janeapp.com/#/staff_member/21/treatment/7,1,100,45,Midtown
 Qi Integrated Health,Karyn Smith,https://qiintegratedhealth.janeapp.com/#/staff_member/25/treatment/986,1,112,60,Midtown
-Acubalance,Katheleen Lee,https://acubalance.janeapp.com/#/staff_member/29/treatment/423,1,95,60,Midtown
+Acubalance,Katheleen Lee,https://acubalance.janeapp.com/#/staff_member/29/treatment/423,1,95,30,Midtown
 Bamboo Healing Centre,Keema Shield,https://bamboohealingcentre.janeapp.com/#/staff_member/1/treatment/1,1,125,30,Midtown
 Elements Wellness,Kelli Taylor,https://elementswellness.janeapp.com/#/staff_member/1/treatment/3,1,105,30,Midtown
 Boda Health,Kristen Lukovich,https://bodahealth.janeapp.com/#/staff_member/12/treatment/27,1,95,60,Midtown
@@ -63,7 +63,7 @@ Yaletown Wellness,Melanie Kwak,https://yaletownwellness.janeapp.com/#/staff_memb
 Electra Health Floor,Ming Ma,https://electrahealth.janeapp.com/locations/electra-health-floor/book#/staff_member/91/treatment/517,2,115,60,Downtown
 Limina Wellness,Paul Jeung,https://limina.janeapp.com/#/staff_member/5/treatment/7,1,100,60,New Westminster
 Electra Health Floor,Rudy Lee,https://electrahealth.janeapp.com/locations/electra-health-floor/book#/staff_member/18/treatment/656,2,115,60,Downtown
-Acubalance,Ryan Funk,https://acubalance.janeapp.com/#/staff_member/4/treatment/423,1,95,60,Midtown
+Acubalance,Ryan Funk,https://acubalance.janeapp.com/#/staff_member/4/treatment/423,1,95,30,Midtown
 Holy Family,Sanghyun Jason Tjen,https://holyfamilyacupuncture.janeapp.com/#/staff_member/1/treatment/1,1,88,60,Coquitlam
 The Acupuncture Hub,Sara Irving,https://theacuhub.janeapp.com/#/staff_member/2/treatment/2,1,50,10,Midtown
 Vancouver TCM,Shannon Larson,https://dr-larson-acupuncture.janeapp.com/#/staff_member/1/treatment/2,1,95,75,Richmond
@@ -78,6 +78,6 @@ Balance Acupuncture,Toyomi Tanaka,https://balanceam.janeapp.com/#/staff_member/2
 Acupoint Wellness Centre,Tracy Cheng,https://acupoint.janeapp.com/#/staff_member/14/treatment/106,1,55,60,Downtown
 Sinclair Wellness,Tracy Le Chang,https://sinclairwellnesscentre.janeapp.com/locations/sinclair-wellness-centre/book#/staff_member/7/treatment/29,1,110,70,Downtown
 Health Customized,Vajeh Dasht-Laali,https://bonnchiro.janeapp.com/#/staff_member/38/treatment/140,1,95,60,Downtown
-Boda Health,Vanessa Tam,https://bodahealth.janeapp.com/#/staff_member/9/treatment/51,1,95,60,Midtown
+Boda Health,Vanessa Tam,https://bodahealth.janeapp.com/#/staff_member/9/treatment/51,1,95,30,Midtown
 The Acupuncture Hub,Vicki Im,https://theacuhub.janeapp.com/#/staff_member/1/treatment/2,1,50,10,Midtown
 Royal Treatments,Wai Wah Chan,https://royaltreatmenttherapeutics.janeapp.com/#/staff_member/54/treatment/177,1,120,60,Metrotown
