@@ -1,7 +1,7 @@
 Clinic,Name,Url,Location,Cost,Time,Area
 Adrien Ip,Adrien Ip,https://adrienip.janeapp.com/locations/adrien-ip-tcm-acupuncture-vancouver/book#/staff_member/1/treatment/2,1,90,30,Midtown
 Adrien Ip,Adrien Ip,https://adrienip.janeapp.com/locations/adrien-ip-tcm-acupuncture-richmond/book#/staff_member/1/treatment/2,2,90,30,Richmond
-Oliver Barre,Alaunius Integrated Medicine,https://aimedicines.janeapp.com/#/staff_member/1/treatment/2,1,115,60,Downtown
+Alaunius Integrated Medicine,Oliver Barre,https://aimedicines.janeapp.com/#/staff_member/1/treatment/2,1,115,60,Downtown
 Acubalance,Allison Locke,https://acubalance.janeapp.com/#/staff_member/30/treatment/423,1,95,30,Midtown
 Elements Wellness,Alyssa Huang,https://elementswellness.janeapp.com/#/staff_member/4/treatment/5,1,95,60,Midtown
 Andre Shih TCM,Andre Shih,https://andreshihtcm.janeapp.com/locations/burnaby-clinic/book#/staff_member/1/treatment/8,2,100,60,Metrotown
@@ -40,12 +40,12 @@ MyRest,Jason Brien,https://myrest.janeapp.com/#/staff_member/3/treatment/2,1,55,
 Balance Acupuncture,Jean Sebastien Le Doujet,https://balanceam.janeapp.com/#/staff_member/20/treatment/7,1,100,75,Midtown
 Boda Health,Jeda Boughton,https://bodahealth.janeapp.com/#/staff_member/2/treatment/58,1,105,60,Midtown
 Acupoint Wellness Centre,Jenna Smith,https://acupoint.janeapp.com/#/staff_member/16/treatment/106,1,115,60,Downtown
-Local Health,Jenny Abel,https://localhealth.janeapp.com/locations/local-health-integrative-clinic/book#/staff_member/9/treatment/26,2,90,75,Midtown
+Local Health,Jenny Abel,https://localhealth.janeapp.com/locations/local-health-integrative-clinic/book#/staff_member/9/treatment/26,15,90,75,Midtown
 Advanced Healing Arts,Jessica Moon,https://advancedhealingarts.janeapp.com/#/staff_member/31/treatment/156,1,125,70,Coquitlam
 Electra Health Floor,Jessica Zerr,https://electrahealth.janeapp.com/locations/electra-health-floor/book#/staff_member/37/treatment/517,2,115,60,Downtown
 Coquitlam Integrated Health,Jie Yu,https://coquitlamintegratedhealth.janeapp.com/#/staff_member/1/treatment/1,1,65,30,Coquitlam
 Electra Health Floor,Jiehao Zhang,https://electrahealth.janeapp.com/locations/electra-health-floor/book#/staff_member/32/treatment/647,2,118,60,Downtown
-Local Health,Jill Truscott,https://localhealth.janeapp.com/locations/local-health-integrative-clinic/book#/staff_member/12/treatment/26,2,90,75,Midtown
+Local Health,Jill Truscott,https://localhealth.janeapp.com/locations/local-health-integrative-clinic/book#/staff_member/12/treatment/26,15,90,75,Midtown
 Yong Sheng Clinic,Jing Zhang,https://bbm.janeapp.com/#/staff_member/2/treatment/1,1,70,40,Midtown
 Qi Integrated Health,Julie Nelson,https://qiintegratedhealth.janeapp.com/#/staff_member/124/treatment/986,1,112,60,Midtown
 Balance Acupuncture,Justin Cameron,https://balanceam.janeapp.com/#/staff_member/21/treatment/7,1,100,45,Midtown
@@ -84,6 +84,7 @@ Royal Treatments,Wai Wah Chan,https://royaltreatmenttherapeutics.janeapp.com/#/s
 Inspirit Health Group,Claudia Chen,https://inspirit.janeapp.com/#/staff_member/14/treatment/94,1,95,75,Downtown
 Inspirit Health Group,Carrie Wan Jung Lee,https://inspirit.janeapp.com/#/staff_member/10/treatment/71,1,110,60,Downtown
 Inspirit Health Group,Jonathan Xi Zhang,https://inspirit.janeapp.com/#/staff_member/49/treatment/248,1,90,60,Downtown
-Thrive Wellness,Claudia Chen,https://pgwc.janeapp.com/#/staff_member/3/treatment/8,2,115,60,Midtown
+Thrive Wellness,Claudia Chen,https://pgwc.janeapp.com/#/staff_member/3/treatment/8,1,115,60,Midtown
 Yaletown Wellness,Jean-Sebastien Le Doujet,https://yaletownwellness.janeapp.com/#/staff_member/19/treatment/313,1,100,60,Downtown
 Green Leaf,JongHwan Kim,https://greenleafacuclinic.janeapp.com/#/staff_member/6/treatment/38,1,90,45,Downtown
+Be Chiropractic Wellness,Mahi Sharifirad,https://bonnchiro.janeapp.com/#/staff_member/52/treatment/273,1,95,60,Downtown
