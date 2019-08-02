@@ -1,6 +1,5 @@
 Clinic,Name,Url,Location,Cost,Time,Area
 Abbotsford Chiropractic,Wang Jing,https://abbotsfordchiropractic.janeapp.com/#/staff_member/6/treatment/4,1,70,60,Abbotsford
-Pure5 Wellness,Jahyun Jennifer Kim,https://pure5wellness.janeapp.com/#/staff_member/48/treatment/5,1,80,60,Burnaby
 Advanced Healing Arts,Andrew Taylor,https://advancedhealingarts.janeapp.com/locations/advanced-healing-arts/book#/staff_member/3/treatment/13,1,110,60,Coquitlam
 Advanced Healing Arts,Colin Harris,https://advancedhealingarts.janeapp.com/locations/advanced-healing-arts/book#/staff_member/25/treatment/80,1,110,75,Coquitlam
 Advanced Healing Arts,Ian Dunsmuir,https://advancedhealingarts.janeapp.com/locations/advanced-healing-arts/book#/staff_member/4/treatment/8,1,65,30,Coquitlam
@@ -13,20 +12,16 @@ Acupoint Wellness Centre,Jenna Smith,https://acupoint.janeapp.com/#/staff_member
 Acupoint Wellness Centre,Suka Lang,https://acupoint.janeapp.com/#/staff_member/1/treatment/91,1,115,30,Downtown
 Acupoint Wellness Centre,Tracy Cheng,https://acupoint.janeapp.com/#/staff_member/14/treatment/106,1,55,60,Downtown
 Alaunius Integrated Medicine,Oliver Barre,https://aimedicines.janeapp.com/#/staff_member/1/treatment/2,1,115,60,Downtown
-Alla Ozerova Acupuncture,Alla Ozerova,https://allaozclinic.janeapp.com/#staff_member/1,1,125,60,Downtown
+Alla Ozerova Acupuncture,Alla Ozerova,https://allaozclinic.janeapp.com/#/staff_member/1/treatment/2,1,125,60,Downtown
 Andre Shih TCM,Andre Shih,https://andreshihtcm.janeapp.com/locations/vancouver-clinic/book#/staff_member/1/treatment/2,1,100,60,Downtown
 Be Chiropractic Wellness,Mahi Sharifirad,https://bonnchiro.janeapp.com/#/staff_member/52/treatment/273,1,95,60,Downtown
 Electra Health Floor,Jessica Zerr,https://electrahealth.janeapp.com/locations/electra-health-floor/book#/staff_member/37/treatment/517,2,115,60,Downtown
-Electra Health Floor,Jiehao Zhang,https://electrahealth.janeapp.com/locations/electra-health-floor/book#/staff_member/32/treatment/647,2,118,60,Downtown
-Electra Health Floor,Ming Ma,https://electrahealth.janeapp.com/locations/electra-health-floor/book#/staff_member/91/treatment/517,2,115,60,Downtown
 Electra Health Floor,Rudy Lee,https://electrahealth.janeapp.com/locations/electra-health-floor/book#/staff_member/18/treatment/656,2,115,60,Downtown
 Electra Health Floor,Sharon Mo,https://electrahealth.janeapp.com/locations/electra-health-floor/book#/staff_member/117/treatment/598,2,115,60,Downtown
 Green Leaf,Byoung Jin Na,https://greenleafacuclinic.janeapp.com/#/staff_member/1/treatment/9,1,110,30,Downtown
-Green Leaf,Clara Donghee Kim,https://greenleafacuclinic.janeapp.com/#/staff_member/4/treatment/9,1,110,30,Downtown
 Green Leaf,JongHwan Kim,https://greenleafacuclinic.janeapp.com/#/staff_member/6/treatment/38,1,90,45,Downtown
 Harbor Wellness Center,Vladimir Klimov,https://harbormwc.janeapp.com/#/staff_member/6/treatment/14,1,100,75,Downtown
 Harbor Wellness Center,Rong Liu,https://harbormwc.janeapp.com/#/staff_member/7/treatment/17,1,100,75,Downtown
-Health Customized,Vajeh Dasht-Laali,https://bonnchiro.janeapp.com/#/staff_member/38/treatment/140,1,95,60,Downtown
 Inspirit Health Group,Claudia Chen,https://inspirit.janeapp.com/#/staff_member/14/treatment/94,1,95,75,Downtown
 Inspirit Health Group,Carrie Wan Jung Lee,https://inspirit.janeapp.com/#/staff_member/10/treatment/71,1,110,60,Downtown
 Inspirit Health Group,Jonathan Xi Zhang,https://inspirit.janeapp.com/#/staff_member/49/treatment/248,1,90,60,Downtown
@@ -34,7 +29,6 @@ Sinclair Wellness,Janice Jensen,https://sinclairwellnesscentre.janeapp.com/locat
 Sinclair Wellness,Teresa Nieman,https://sinclairwellnesscentre.janeapp.com/locations/sinclair-wellness-centre/book#/staff_member/8/treatment/112,1,120,60,Downtown
 Sinclair Wellness,Tracy Le Chang,https://sinclairwellnesscentre.janeapp.com/locations/sinclair-wellness-centre/book#/staff_member/7/treatment/29,1,110,70,Downtown
 Sinclair Wellness,Clara Kim,https://sinclairwellnesscentre.janeapp.com/locations/sinclair-wellness-centre/book#/staff_member/25/treatment/213,1,85,45,Downtown
-Yaletown Wellness,Ichigen Mori,https://yaletownwellness.janeapp.com/#/staff_member/18/treatment/297,1,100,60,Downtown
 Yaletown Wellness,Melanie Kwak,https://yaletownwellness.janeapp.com/#/staff_member/1/treatment/164,1,100,30,Downtown
 Yaletown Wellness,Sungwoon Tjen,https://yaletownwellness.janeapp.com/#/staff_member/9/treatment/165,1,100,60,Downtown
 Yaletown Wellness,Jean-Sebastien Le Doujet,https://yaletownwellness.janeapp.com/#/staff_member/19/treatment/313,1,100,60,Downtown
@@ -55,7 +49,6 @@ Acubalance,Ryan Funk,https://acubalance.janeapp.com/#/staff_member/4/treatment/4
 Adrien Ip,Adrien Ip,https://adrienip.janeapp.com/locations/adrien-ip-tcm-acupuncture-vancouver/book#/staff_member/1/treatment/2,1,90,30,Midtown
 Back 2 Health,Cary Rendek,https://back2health.janeapp.com/#/staff_member/27/treatment/147,1,100,60,Midtown
 Balance Acupuncture,Angela Liu,https://balanceam.janeapp.com/#/staff_member/18/treatment/7,1,100,60,Midtown
-Balance Acupuncture,EunYoung Lee,https://balanceam.janeapp.com/#/staff_member/19/treatment/7,1,100,75,Midtown
 Balance Acupuncture,Jean Sebastien Le Doujet,https://balanceam.janeapp.com/#/staff_member/20/treatment/7,1,100,75,Midtown
 Balance Acupuncture,Justin Cameron,https://balanceam.janeapp.com/#/staff_member/21/treatment/7,1,100,45,Midtown
 Balance Acupuncture,Tomomi Shibuya,https://balanceam.janeapp.com/#/staff_member/22/treatment/7,1,100,75,Midtown
@@ -78,19 +71,20 @@ Qi Integrated Health,Hailey Samuelsson,https://qiintegratedhealth.janeapp.com/#/
 Qi Integrated Health,Julie Nelson,https://qiintegratedhealth.janeapp.com/#/staff_member/124/treatment/986,1,112,60,Midtown
 Qi Integrated Health,Karyn Smith,https://qiintegratedhealth.janeapp.com/#/staff_member/25/treatment/986,1,112,60,Midtown
 Qi Integrated Health,Tedi Fisher,https://qiintegratedhealth.janeapp.com/#/staff_member/80/treatment/607,1,112,30,Midtown
-The Acupuncture Hub,Elise Greaves,https://theacuhub.janeapp.com/#/staff_member/8/treatment/2,1,50,10,Midtown
 The Acupuncture Hub,Lana Alberts,https://theacuhub.janeapp.com/#/staff_member/3/treatment/2,1,50,10,Midtown
 The Acupuncture Hub,Sara Irving,https://theacuhub.janeapp.com/#/staff_member/2/treatment/2,1,50,10,Midtown
 The Acupuncture Hub,Vicki Im,https://theacuhub.janeapp.com/#/staff_member/1/treatment/2,1,50,10,Midtown
 The Acupuncture Hub,Suzanne Williams,https://theacuhub.janeapp.com/#/staff_member/10/treatment/2,1,50,10,Midtown
 Thrive Wellness,Claudia Chen,https://pgwc.janeapp.com/#/staff_member/3/treatment/8,1,115,60,Midtown
-Yong Sheng Clinic,Jing Zhang,https://bbm.janeapp.com/#/staff_member/2/treatment/1,1,70,40,Midtown
+Yong Sheng Clinic,Jing Zhang,https://bbm.janeapp.com/locations/yong-sheng-clinic/book#/staff_member/2/treatment/1,1,70,40,Midtown
+Yong Sheng Clinic,Jing Zhang,https://bbm.janeapp.com/locations/yong-sheng-clinic-west/book#/staff_member/2/treatment/1,2,70,40,Midtown
+Yong Sheng Clinic,Amy Han,https://bbm.janeapp.com/locations/yong-sheng-clinic/book#/staff_member/1/treatment/1,2,70,40,Midtown
+Yong Sheng Clinic,Amy Han,https://bbm.janeapp.com/locations/yong-sheng-clinic-west/book#/staff_member/1/treatment/1,2,70,40,Midtown
 Limina Wellness,Paul Jeung,https://limina.janeapp.com/#/staff_member/5/treatment/7,1,100,60,New Westminster
 Impulse Sport Therapeutics,Jennifer Jellis,https://impulsesporttherapeutics.janeapp.com/#/staff_member/23/treatment/37,1,90,60,North Vancouver
 North  Shore Wellness,Andrew Lin,https://northshorewellnesscentre.janeapp.com/locations/north-shore-wellness-centre/book#/staff_member/4/treatment/12,1,90,30,North Vancouver
 North Shore Wellness,Brad Matthews,https://northshorewellnesscentre.janeapp.com/locations/north-shore-wellness-centre/book#/staff_member/151/treatment/392,1,90,30,North Vancouver
 Adrien Ip,Adrien Ip,https://adrienip.janeapp.com/locations/adrien-ip-tcm-acupuncture-richmond/book#/staff_member/1/treatment/2,2,90,30,Richmond
-Healing River,Bobbi Hayashi,https://healingriveracupuncture.janeapp.com/#/staff_member/3/treatment/10,1,80,60,Richmond
 Healing River,Chrystal Malapas,https://healingriveracupuncture.janeapp.com/#/staff_member/2/treatment/10,1,80,60,Richmond
 Momentum Wellness,Bonnie Jang,https://momentumwellnesscentre.janeapp.com/locations/momentum-steveston-village/book#/staff_member/4/treatment/14,1,105,60,Richmond
 Momentum Wellness,Bonnie Jang,https://momentumwellnesscentre.janeapp.com/locations/momentum-kerrisdale-village/book#/staff_member/4/treatment/14,3,105,60,Richmond
@@ -99,30 +93,30 @@ Vancouver TCM,Shannon Larson,https://dr-larson-acupuncture.janeapp.com/#/staff_m
 AcuComfort,Alexandra Herold,https://acucomfort.janeapp.com/#/staff_member/1/treatment/2,1,90,60,Surrey
 Acupoint Wellness Centre,Suka Lang,https://acupoint.janeapp.com/locations/acupoint-wellness-nelson-square/book#/discipline/1/treatment/113,2,115,55,Downtown
 Vansports and Physiotherapy,Katia Salman,https://vansportsphysio.janeapp.com/#/staff_member/21/treatment/37,1,110,60,Downtown
-Optimal Performance,Kristen Lukovich,https://optimal.janeapp.com/#/discipline/1/treatment/10,1,110,60,Downtown
+Optimal Performance,Kristen Lukovich,https://optimal.janeapp.com/#/staff_member/12/treatment/10,1,110,60,Downtown
 Aumakua Integrated Wellness,Dominique Vallee,https://aiwclinic.janeapp.com/#/staff_member/3/treatment/185,1,120,50,Downtown
 Klinik,Pardeep Dherari,https://back2health.janeapp.com/#/staff_member/27/treatment/147,1,125,30,Midtown
 Klinik,Stephanie Doerksen,https://klinikvancouver.janeapp.com/#/staff_member/20/treatment/119,1,95,60,Midtown
 Klinik,Carmen Tanaka,https://klinikvancouver.janeapp.com/#/staff_member/2/treatment/37,1,135,45,Midtown
 Honor Wellness,Lancy Cho,https://honorwellnessstudio.janeapp.com/#/staff_member/1/treatment/1,1,90,60,Midtown
-Honor Wellness,Andrew Lin,https://honorwellnessstudio.janeapp.com/#/staff_member/7,1,90,60,Midtown
+Honor Wellness,Andrew Lin,https://honorwellnessstudio.janeapp.com/#/staff_member/7/treatment/39,1,90,60,Midtown
 Soma Wellness,Teresa Lam,https://somastudio.janeapp.com/locations/soma-studio-west/book#/staff_member/64/treatment/24,1,100,60,Midtown
 Soma Wellness,Lesley Ormiston,https://somastudio.janeapp.com/locations/soma-studio-west/book#/staff_member/23/treatment/24,1,100,60,Midtown
 Tonume,Bok Chen,https://tonume.janeapp.com/#/staff_member/8/treatment/105,1,100,60,Midtown
 Tonume,Angela Foran,https://tonume.janeapp.com/#/staff_member/49/treatment/121,1,100,50,Midtown
-Backs in Motion,Sungwoon Shawn,https://backsinaction.janeapp.com/#/discipline/1/treatment/27,1,85,50,Midtown
-Backs in Motion,Xiao Le Liao,https://totalvitalitycentre.janeapp.com/#/discipline/1/treatment/5,1,80,60,Burnaby
-Brilliance Health,Jacqueline Chan,https://brilliancehealth.janeapp.com/locations/burnaby-clinic/book#/staff_member/1/treatment/2,1,90,60,Metrotown
+Backs in Motion,Sungwoon Shawn,https://backsinaction.janeapp.com/#/staff_member/40/treatment/27,1,85,50,Midtown
+Backs in Motion,Xiao Le Liao,https://totalvitalitycentre.janeapp.com/#/staff_member/55/treatment/5,1,80,60,Burnaby
+Brilliance Health,Jacqueline Chan,https://brilliancehealth.janeapp.com/locations/burnaby-clinic/book#/staff_member/1/treatment/2,3,90,60,Metrotown
 The Village Community Acupuncture,Judy Chee,https://thevillagecommunityacupuncture.janeapp.com/locations/the-village-community-acupuncture-vancouver/book#/staff_member/13/treatment/4,1,50,15,Midtown
 The Village Community Acupuncture,Lisa Matsuzaki,https://thevillagecommunityacupuncture.janeapp.com/locations/the-village-community-acupuncture-vancouver/book#/staff_member/15/treatment/4,1,50,15,Midtown
-The Village Community Acupuncture,Yvonne Sui,https://thevillagecommunityacupuncture.janeapp.com/locations/the-village-community-acupuncture-vancouver/book#/staff_member/14,1,50,15,Midtown
-The Village Community Acupuncture,Sara Ward,https://thevillagecommunityacupuncture.janeapp.com/locations/the-village-community-acupuncture-vancouver/book#/staff_member/2,1,50,15,Midtown
+The Village Community Acupuncture,Yvonne Sui,https://thevillagecommunityacupuncture.janeapp.com/locations/the-village-community-acupuncture-vancouver/book#/staff_member/14/treatment/4,1,50,15,Midtown
+The Village Community Acupuncture,Sara Ward,https://thevillagecommunityacupuncture.janeapp.com/locations/the-village-community-acupuncture-vancouver/book#/staff_member/2/treatment/4,1,50,15,Midtown
 Grant Street Wellness,Lily Chong,https://grantstreetwellnessclinic.janeapp.com/#/staff_member/10/treatment/23,1,110,60,Midtown
-Grant Street Wellness,Jean Wong,https://grantstreetwellnessclinic.janeapp.com/#/staff_member/11,1,110,75,Midtown
+Grant Street Wellness,Jean Wong,https://grantstreetwellnessclinic.janeapp.com/#/staff_member/11/treatment/23,1,110,75,Midtown
 Sunset Physio,Katia Salman,https://sunsetphysio.janeapp.com/#/discipline/6/treatment/76,1,100,60,Midtown
-Honey and Garlic,Leonie Bedet,https://honeyandgarlic.janeapp.com/#/discipline/1/treatment/14,1,95,75,Midtown
-Ryu Clinic,Jiman Ryu,https://ryuclinic.janeapp.com/#/acupuncture,1,80,45,Coquitlam
-Peak Valley,Cathy Cao,https://peakvalleyactivehealth.janeapp.com/#/discipline/1/treatment/22,1,85,60,Langley
+Honey and Garlic,Leonie Bedet,https://honeyandgarlic.janeapp.com/#/staff_member/7/treatment/14,1,95,75,Midtown
+Ryu Clinic,Jiman Ryu,https://ryuclinic.janeapp.com/#/staff_member/1/treatment/6,1,80,45,Coquitlam
+Peak Valley,Cathy Cao,https://peakvalleyactivehealth.janeapp.com/#/staff_member/4/treatment/22,1,85,60,Langley
 Spine and Sport,Doreen Mah,https://spineandsport.janeapp.com/locations/spine-sport-chiropractic-clinic/book#/staff_member/4/treatment/61,1,90,60,Coquitlam
 Kushala Yoga,Doreen Mah,https://spineandsport.janeapp.com/locations/spine-sport-chiropractic-clinic/book#/staff_member/4/treatment/62,2,90,60,Coquitlam
 Whole Body Health,Chien Kai Wang,https://wholebody.janeapp.com/#/staff_member/3/treatment/110,1,80,60,Pitt Meadows
@@ -140,7 +134,7 @@ Living Wellness Centre,Quinn Rose,https://living.janeapp.com/locations/living-we
 Living Wellness Centre,Raeghan Siemens,https://living.janeapp.com/locations/living-wellness-centre/book#/staff_member/2/treatment/302,1,95,30,Surrey
 Performance Integrated Health,Christopher Turpin,https://pih.janeapp.com/#/staff_member/42/treatment/391,1,95,60,Surrey
 Momentum Therapeutics,Cathy Cao,https://momentum.janeapp.com/#/staff_member/13/treatment/24,1,85,45,Coquitlam
-Benefit Health Therapeutics,Lawrence Liang,https://benefithealth.janeapp.com/#/discipline/3/treatment/10,1,80,75,Langley
+Benefit Health Therapeutics,Lawrence Liang,https://benefithealth.janeapp.com/#/staff_member/5/treatment/10,1,80,75,Langley
 Healthy Way,Fei Luan,https://healthywayacupuncture.janeapp.com/#/staff_member/3/treatment/2,1,75,60,North Vancouver
 Healthy Way,Min Yu Tsou,https://healthywayacupuncture.janeapp.com/#/staff_member/5/treatment/2,1,75,60,North Vancouver
 Healthy Way,Chien-Kai Wang,https://healthywayacupuncture.janeapp.com/#/staff_member/1/treatment/2,1,75,60,North Vancouver
@@ -148,7 +142,7 @@ Marine Drive Naturopathic,Youna Kim,https://marinedrivenaturopathic.janeapp.com/
 Marine Drive Naturopathic,Austin Wei,https://marinedrivenaturopathic.janeapp.com/#/staff_member/10/treatment/16,1,95,45,North Vancouver
 Tong Ren Tang,John Yang,https://beijingtrt.janeapp.com/#/staff_member/8/treatment/9,1,80,60,North Vancouver
 Tong Ren Tang,Tina Tian,https://beijingtrt.janeapp.com/#/staff_member/2/treatment/9,1,80,60,North Vancouver
-Tong Ren Tang,Julie Rao,https://beijingtrt.janeapp.com/#/staff_member/3,1,80,60,North Vancouver
+Tong Ren Tang,Julie Rao,https://beijingtrt.janeapp.com/#/staff_member/3/treatment/9,1,80,60,North Vancouver
 Bellevue Natural Health Clinic,Wen Rong Chen,https://bellevuenaturalhealth.janeapp.com/#/staff_member/4/treatment/12,1,100,60,North Vancouver
 IAM Wellness,Ute Adolphs,https://iamwellness.janeapp.com/#/staff_member/5/treatment/1,1,110,60,North Vancouver
 IAM Wellness,David Ha,https://iamwellness.janeapp.com/#/staff_member/2/treatment/1,1,110,60,North Vancouver
